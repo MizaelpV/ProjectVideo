@@ -1,4 +1,6 @@
 import React from 'react';
+import plusIcon from '../assets/static/mas (1).png';
+import playIcon from '../assets/static/boton-de-play.png';
 import '../assets/styles/components/CarouselItem.scss';
 
 const CarouselItem = () => (
@@ -12,12 +14,12 @@ const CarouselItem = () => (
       <div>
         <img
           className='carousel-item__details--img'
-          src='./assets/play-icon.png'
+          src={playIcon}
           alt='Play Icon'
         />
         <img
           className='carousel-item__details--img'
-          src='./assets/plus-icon.png'
+          src={plusIcon}
           alt='Plus Icon'
         />
       </div>
